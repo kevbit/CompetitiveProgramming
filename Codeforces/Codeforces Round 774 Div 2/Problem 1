@@ -1,0 +1,11 @@
+#include "Problem 1."
+
+Problem 1::Problem 1()
+{
+    //ctor
+}
+
+Problem 1::~Problem 1()
+{
+    //dtor
+}

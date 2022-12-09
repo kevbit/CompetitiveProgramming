@@ -1,0 +1,37 @@
+#include <iostream>
+#include <cstdlib>
+#include <string.h>
+#include <bits/stdc++.h>
+
+#define F_OR(i,a,b) for(int i = a; i < b; i ++)
+
+using namespace std;
+
+int main() {
+	int n;
+	cin >> n;
+	string input;
+	cin >> input;
+
+	if(n > 25) {
+		transform(input.begin(), input.end(), input.begin(), ::toupper);
+		sort(input.begin(), input.end());
+		int count = 0;
+		F_OR(i, 0, n) {
+			if(input[i] != input[i + 1]) {
+				count ++;
+			}
+		}
+		if(count > 25) {
+			cout << "YES" << "\n";
+		}	
+		else {
+			cout << "NO" << "\n";
+		}
+	}
+	else {
+		cout << "NO" << "\n";
+	}	
+
+	return 0;
+}
