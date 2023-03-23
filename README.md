@@ -15,7 +15,7 @@ This repo will serve as historical evidence of my journey in Competitive Program
 
  - [Mostafa's Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=123190759)
  - [Codeforces](codeforces.com)
- - [USACO](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [USACO](usaco.org)
 
 
 ![Logo](https://codeforces.org/s/83995/images/codeforces-sponsored-by-ton.png)
