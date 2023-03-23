@@ -34,3 +34,6 @@
 # GVim Files
 *.cpp~
 *.cpp.un~
+
+# Text Files
+*.txt
